@@ -411,13 +411,36 @@ td {
     justify-content: center;
   }
   /* footer */
+  
+  .foot-row-1{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+  .foot-table-left{
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  
   td,
   th {
     display: flex;
     flex-wrap: wrap;
-  }
-  .foot-row-1{
     justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+  td{
+    padding: 0 0 0 0;
+  }
+  th{
+    padding: 0 0 10px 0;
   }
   .foot-row-2 {
     flex-direction: column;
@@ -439,7 +462,7 @@ td {
     justify-content: center;
   }
   .nav-container-main-L {
-    margin-top: 1rem;
+    margin-top: 0.7rem;
   }
   .nav-container-main-R {
     width: 100%;
