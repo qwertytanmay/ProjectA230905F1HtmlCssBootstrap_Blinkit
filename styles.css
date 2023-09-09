@@ -89,6 +89,7 @@ nav {
   font-size: 13px;
 }
 .nav-search-bar > input:focus{
+  /* ⭐ */
   outline: none;
 }
 .nav-login-btn > button {
