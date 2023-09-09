@@ -173,6 +173,7 @@ nav {
 }
 
 .cat-cards-stack {
+  padding-block: 1rem;
   width: 100%;
   display: flex;
   /* justify-content: space-between; */
@@ -211,14 +212,15 @@ nav {
   left: 4px;
 }
 .cat-card-content {
-  /* text-overflow: ellipsis; */
+
 }
 .card-name {
   font-size: 12px;
   font-weight: 600;
   overflow: hidden;
-  text-overflow: "...";
-  height: 2rem;
+  text-overflow: ellipsis;
+  /* text-overflow: "..."; */
+  height: 2.5rem;
 }
 .card-time-div {
   width: 40%;
@@ -264,7 +266,7 @@ nav {
   border-radius: 5px;
   background-color: #f7fff9;
   font-size: 12px;
-  font-weight: 700;~
+  font-weight: 700;
 }
 
 /* FOOTER--------- */
