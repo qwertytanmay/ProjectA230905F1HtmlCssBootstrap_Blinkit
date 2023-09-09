@@ -88,7 +88,9 @@ nav {
   color: #d6d6d6;
   font-size: 13px;
 }
-
+.nav-search-bar > input:focus{
+  outline: none;
+}
 .nav-login-btn > button {
   color: #363642;
   border: none;
@@ -186,6 +188,7 @@ nav {
   color: #1f1f3c;
   box-shadow: 2px 2px 4px #f0f0f0;
   margin-right: 18px;
+  padding-bottom: 0.3rem;
 }
 .cat-card-img {
   margin-inline: 1.5rem;
@@ -240,6 +243,9 @@ nav {
 .card-mrp-div > s {
   color: #746d6b;
 }
+.div-card-bottom{
+  min-height: 3rem;
+}
 .card-mrp {
   font-size: 13px;
   font-weight: 600;
@@ -258,7 +264,7 @@ nav {
   border-radius: 5px;
   background-color: #f7fff9;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 700;~
 }
 
 /* FOOTER--------- */
