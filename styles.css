@@ -485,6 +485,9 @@ td {
   .myLocation {
     margin-bottom: 0.5rem;
   }
+  .cat-specific {
+    margin-inline: 0rem;
+  }
   .available-paltforms{
     margin-block: 1rem;
   }
